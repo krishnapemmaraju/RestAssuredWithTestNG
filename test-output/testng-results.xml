@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="9" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3475" started-at="2019-12-13T16:08:06Z" finished-at="2019-12-13T16:08:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3475" started-at="2019-12-13T16:08:06Z" finished-at="2019-12-13T16:08:10Z">
+      <class name="com.qa.rest.api.test.TC01GETReq">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.rest.api.test.TC01GETReq@cb644e]" name="setUp" is-config="true" duration-ms="159" started-at="2019-12-13T16:08:06Z" finished-at="2019-12-13T16:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC008_GETDATAFROMEXCEL(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rest.api.test.TC01GETReq@cb644e]" name="TC008_GETDATAFROMEXCEL" duration-ms="1983" started-at="2019-12-13T16:08:07Z" data-provider="getDatafromExcel" finished-at="2019-12-13T16:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ytest1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ytest2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ytest01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ytest001$]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ytest1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC008_GETDATAFROMEXCEL -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.rest.api.test.TC01GETReq@cb644e]" name="teardown" is-config="true" duration-ms="2" started-at="2019-12-13T16:08:09Z" finished-at="2019-12-13T16:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC008_GETDATAFROMEXCEL status=SUCCESS method=TC01GETReq.TC008_GETDATAFROMEXCEL(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rest.api.test.TC01GETReq@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="TC008_GETDATAFROMEXCEL(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rest.api.test.TC01GETReq@cb644e]" name="TC008_GETDATAFROMEXCEL" duration-ms="346" started-at="2019-12-13T16:08:09Z" data-provider="getDatafromExcel" finished-at="2019-12-13T16:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ytest3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ytest4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ytest02]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ytest002$]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ytest2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC008_GETDATAFROMEXCEL -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.rest.api.test.TC01GETReq@cb644e]" name="teardown" is-config="true" duration-ms="0" started-at="2019-12-13T16:08:09Z" finished-at="2019-12-13T16:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC008_GETDATAFROMEXCEL status=SUCCESS method=TC01GETReq.TC008_GETDATAFROMEXCEL(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rest.api.test.TC01GETReq@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="extentTest()[pri:0, instance:com.qa.rest.api.test.TC01GETReq@cb644e]" name="extentTest" is-config="true" duration-ms="306" started-at="2019-12-13T16:08:09Z" finished-at="2019-12-13T16:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentTest -->
+      </class> <!-- com.qa.rest.api.test.TC01GETReq -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
